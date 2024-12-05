@@ -6,9 +6,137 @@
     <title> Tabela </title>
 </head>
 <body>
-Tutaj będzie tabela
 
-<p><img src="tabela.png" border=0 width=70 height=50> </A></p>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tabela hoppe</title>
+    <style>
+        .moja {
+            width: 900px;
+            border: 8px solid #f50057;
+            border-collapse: collapse;
+        }
+
+        .moja td {
+            border: 2px solid #25C428;
+            border-collapse: collapse;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+
+        .moja th {
+            border: 2px solid #25C428;
+            border-collapse: collapse;
+            font-family: Comic Sans MS, Comic Sans, serif;
+        }
+
+        .reszta {
+            width: 18%;
+        }
+        .procesor {
+            width: 28%;
+        }
+
+        .granat {
+            background-color: #1B1640;
+            color: #FFFFFF;
+        }
+
+        .model {
+            font-family: 'Agency FB', serif;
+            font-weight: bold;
+            font-style: italic;
+            color: rgb(134, 24, 125);
+        }
+
+        .liczba {
+            font-family: Brush Script MT, Brush Script Std, serif;
+            text-align: center
+        }
+
+        .tdp {
+            text-align: right;
+        }
+
+        .moja td:nth-child(2) {
+            font-weight: bold;
+            
+        }
+        .srodek {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <table class="moja">
+        <colgroup>
+        <col class="procesor"/>
+        <col class="reszta "/>
+        <col class="reszta"/>
+        <col class="reszta"/>
+        <col class="reszta"/>
+        </colgroup>
+        <caption>Tabela HTML</caption>
+        <thead>
+
+            <tr class="granat">
+                <td colspan="5" class="srodek">Dane procesora - hoppe alan 1P G1</td>
+            </tr>
+
+            <tr bgcolor="#1e90ff">
+                <th>Model procesora</th>
+                <th>Taktowanie</th>
+                <th>Liczenie rdzeni</th>
+                <th>TDP</th>
+                <th>pamieć podreczna</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr bgcolor="#70DB93" style="color: #990033">
+                <td class="model">Ryzen 9 AMD 5900x</td>
+                <td>3.7 GHz</td>
+                <td class="liczba">12</td>
+                <td class="tdp">105W</td>
+                <td>70 MB</td>
+            </tr>
+            <tr bgcolor="#C0D9D9" style="color: #3F9DCC">
+                <td class="model">ryzen 7 </td>
+                <td>3.8 GHz</td>
+                <td class="liczba">8</td>
+                <td class="tdp">105 W</td>
+                <td>32 MB</td>
+            </tr>
+            <tr bgcolor="#70DB93" style="color: #990033 ">
+                <td class="model">ryzen 5 </td>
+                <td> 4.7 GHz</td>
+                <td class="liczba">6</td>
+                <td class="tdp">105W</td>
+                <td>38 MB</td>
+            </tr>
+            <tr bgcolor="#C0D9D9" style="color: #CF0202 ">
+                <td class="model"> Intel Core i7 14700K </td>
+                <td>3,4 GHz</td>
+                <td class="liczba">20</td>
+                <td class="tdp">125W</td>
+                <td>33 MB</td>
+            </tr>
+            <tr bgcolor="#70DB93" style="color: #FF2400">
+                <td class="model"> ryzen threadripper pro </td>
+                <td>2.7</td>
+                <td class="liczba">64</td>
+                <td class="tdp">280W</td>
+                <td>288 MB</td>
+            </tr>
+            <tr class="granat">
+                <td colspan="5" class="srodek">Dane procesora</td>
+            </tr>
+        </tbody>
+    </table>
+<br>
 
 <A HREF="indeks.html">Wróć </A>
 </body>

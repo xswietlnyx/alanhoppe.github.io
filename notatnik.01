@@ -1,0 +1,124 @@
+   <!DOCTYPE html>
+    <html>
+     <head>
+      <body bgcolor="#EFEBE9"></body>
+
+
+
+
+
+<head>
+ <meta charset="utf-8">
+ <title> ZADANIE FORMULARZ </title>
+ </head>
+<body bgcolor="#87CEFA">
+<center><h1> Formularz znajduje się poniżej wraz z pytaniami</h1></center>
+<form enctype="text/plain" action="mailto:mkryniew@wp.pl" subject="formularz_dane" method="Post">
+ <TABLE>
+<TR height="100">
+ <TD width="500"> 
+ <b>Imię</b> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+&nbsp 
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<input name="imie" size="22"> 
+ <br><br>
+ <b>Drugie imię</b>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+&nbsp &nbsp &nbsp &nbsp <input name="drugie" size="22"> 
+ <br><br>
+ <b>Nazwisko </b> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+&nbsp &nbsp &nbsp <input name="nazwisko" size="22"> 
+ <br><br>
+ <b>Pseudonim artystyczny</b>&nbsp &nbsp<input name="login" size="22"><nobr> 
+<br> 
+ </TD> 
+ <TD width="300" > 
+<center><font size="5" color="red"><b>Podaj środek lokomacji dojazdu do 
+pracy</b></font></center><br>
+ <center> <select>
+ <option value="autobus">Autobus</option>
+ <option value="motocykl">Motocykl</option>
+ <option value="prom">Prom</option>
+ <option value="samolot">Samolot</option>
+ <option value="lodz">Łódź podwodna</option>
+ <option value="kajak">Kajak</option>
+ </select> </center>
+ </TD> 
+ <TD width="500">jaki jest twój ulubiony język programowania?
+<br><br>
+<input type="checkbox" name="ciastko" value="k"> programowania wewnętrznego
+<br><br>
+<input type="checkbox" name="ciastko" value="m"> programowania zewnętrznego
+<br><br>
+<input type="checkbox" name="ciastko" value="inne"> inne 
+<br><br><br>
+<nobr>Jeśli zaznaczyłeś INNE to podaj swój język:<br>wpisz język poniżej. Maks: 
+10<br>znaków</nobr>
+<br><br>
+<input name="inna" size="25" maxlength="10">
+ </TD>
+ </TR>
+<TR height="50">
+</form>
+
+     <p align="center"> <font color="#00FF66" size="10" face="Impact"> Usługi IT Gdańsk </font>  </p> <br>
+
+      <p align="left"> <font color="#FF0000" size="5" face="arial"> <b>  • 20 lat doświadczenia w branży,</b> </font> </p> 
+ <p align="left"> <font color="black" size="4" face="arial"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(Doświadczeni pracownicy) </font> </p>
+<HR>
+       <p align="center"> <font color="#FF0000" size="5" face="arial"> <b> • Profesjonalne zabezpieczenia i oprogramowania stron,</b> </font> </p>
+ <p align="center"> <font color="black" size="4" face="arial"> &nbsp; &nbsp; (Robione przez zaawansownaych prpgramistów) </font> </p>
+
+       <p align="right"> <font color="#FF0000" size="5" face="arial"> <b>• Obsługujemy ponad 210 firm,</b></font> </p> 
+ <p align="right"> <font color="black" size="4" face="arial"> &nbsp; &nbsp; (Każda firma dumna z naszych działań) </font> </p>
+
+<H2 ALIGN=center>  o tobie: </H2>
+
+ <p algin="center">    <FIELDSET>
+ <LEGEND> <H3><b>Wymagania kwalifikacyjne <font color="red"> ! </font> </b></H3> </LEGEND> 
+   &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b>-ukończone studia magistra/inżyniera, </b> <br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b>-znajomość conajmniej dwóch języków programowania, </b><br>
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b>-CV, wraz ze zdjęciem aplikującego </b>
+</FIELDSET> 
+</p>
+
+<H2 ALIGN=center>  o pracy: </H2>
+
+ <p algin="center">    <FIELDSET>
+<LEGEND> <H3><b>godziny pracy  <font color="red"> ! </font> </b></H3> </LEGEND>
+   &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b>-nasi pracownicy ustawiają sobie sami grafik pracy,</b> <br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b>-praca 5 dni w tygodniu po 8 godzin dziennie,</b><br>
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b>-minimum oraz max 160 godzin dziennie, </b><br>
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b>-nie chcemy, aby nasi pracownicy pracowali po godzinach swojego grafiku,</b>
+</FIELDSET> 
+</p>
+
+<hr>
+
+<TD><nobr> Pytanie 1: czy pracowałeś kiedy kolwiek w jakieś firmie IT? </nobr>
+<br><br>
+<input type="radio" name="pyt3" value="nie"> Nie, nie pracowałem
+<br><br>
+<input type="radio" name="pyt3" value="tak"> Tak, pracowałem </TD> 
+ </TR>
+<TR height="400">
+ </TR>
+ </TABLE>
+</form>
+
+<hr>
+
+<TD><nobr> Pytanie 2: Czy ukończyłeś magistra/inżyniera?</nobr>
+<br><br>
+<input type="radio" name="pyt3" value="tak"> Tak, ukńczyłem
+<br><br>
+<input type="radio" name="pyt3" value="nie"> Nie, mam wykształcenie ponad podstawowe 
+<br><br>
+<input type="radio" name="pyt3" value="tak"> Nie mam wykształcenia programisty</TD> 
+ </TR>
+<TR height="10">
+ </TR>
+ </TABLE>
+</form>
+
+<hr>
+
+

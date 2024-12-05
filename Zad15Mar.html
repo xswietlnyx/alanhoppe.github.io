@@ -1,0 +1,14 @@
+<body>
+  <p id="paragraf"> </p>
+  <script>
+    var O1 = { 
+      imie: "Kacper",
+      nazwisko: "Kabziński",
+      wiek: 18,
+      daneWyjscie: function() {
+        return this.imie + " " + this.nazwisko + ", wiek: " + this.wiek;
+      }
+    };
+    document.getElementById("paragraf").innerHTML = O1.daneWyjscie();
+  </script>
+</body>

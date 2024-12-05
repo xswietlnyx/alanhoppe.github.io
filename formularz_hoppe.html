@@ -6,9 +6,147 @@
              <title> Formularz </title> 
      </head> 
     <body>
-    Tutaj będzie formularz
+    
     <br>
-        <img src="formularz.png" border=0 width=70 height=50></A>
+        <!DOCTYPE html>
+<html lang="pl">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz Konkursowy Piłkarski</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            display: flex;
+            gap: 20px;
+        }
+        .column {
+            width: 50%;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        label {
+            font-weight: bold;
+            margin-top: 10px;
+            display: block;
+        }
+        input[type="text"], input[type="number"], textarea, select {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        input[type="radio"], input[type="checkbox"] {
+            margin-right: 10px;
+        }
+        button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 4px;
+            margin-top: 20px;
+            display: inline-block;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .form-actions {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formularz Konkursowy Piłkarski</h1>
+    <div class="container">
+        <!-- Kolumna 1 -->
+        <div class="column">
+            <form id="konkursForm">
+                <label for="imie">1. Podaj swoje imię:</label>
+                <input type="text" id="imie" name="imie" required>
+
+                <label for="nazwisko">2. Podaj swoje nazwisko:</label>
+                <input type="text" id="nazwisko" name="nazwisko" required>
+
+                <label for="telefon">3. Podaj swój numer telefonu:</label>
+                <input type="text" id="telefon" name="telefon" required>
+
+                <label>4. Z ilu metrów wykonujemy rzut karny?</label>
+                <input type="radio" id="4m" name="rzut_karny" value="4">
+                <label for="4m">4 metry</label><br>
+                <input type="radio" id="11m" name="rzut_karny" value="11">
+                <label for="11m">11 metrów</label><br>
+                <input type="radio" id="8m" name="rzut_karny" value="8">
+                <label for="8m">8 metrów</label>
+
+                <label>5. Czy trenujesz w jakimś klubie?</label>
+                <input type="radio" id="tak" name="klub" value="tak">
+                <label for="tak">Tak</label><br>
+                <input type="radio" id="nie" name="klub" value="nie">
+                <label for="nie">Nie</label><br>
+                <input type="radio" id="kiedys" name="klub" value="kiedys">
+                <label for="kiedys">Kiedyś trenowałem</label>
+        </div>
+
+        <!-- Kolumna 2 -->
+        <div class="column">
+                <label for="dni">6. Ile trenujesz/grasz dni w tygodniu?</label>
+                <input type="number" id="dni" name="dni" min="0" max="7">
+
+                <label>7. Wybierz kluby, które lubisz:</label>
+                <input type="checkbox" id="barcelona" name="kluby" value="FC Barcelona">
+                <label for="barcelona">FC Barcelona</label><br>
+                <input type="checkbox" id="real" name="kluby" value="Real Madryt">
+                <label for="real">Real Madryt</label><br>
+                <input type="checkbox" id="bayern" name="kluby" value="Bayern Monachium">
+                <label for="bayern">Bayern Monachium</label><br>
+                <input type="checkbox" id="lechia" name="kluby" value="Lechia">
+                <label for="lechia">Lechia</label><br>
+                <input type="checkbox" id="everton" name="kluby" value="Everton">
+                <label for="everton">Everton</label><br>
+                <input type="checkbox" id="manchester" name="kluby" value="Manchester City">
+                <label for="manchester">Manchester City</label>
+
+                <label for="liga">8. Wybierz ligę, w której jest Twój klub:</label>
+                <select id="liga" name="liga">
+                    <option value="ekstraklasa">Ekstraklasa</option>
+                    <option value="I liga">I liga</option>
+                    <option value="II liga">II liga</option>
+                    <option value="III liga">III liga</option>
+                    <option value="IV liga">IV liga</option>
+                    <option value="V liga">V liga</option>
+                </select>
+
+                <label for="dlaczego">9. Dlaczego akurat Ciebie mamy wybrać?</label>
+                <textarea id="dlaczego" name="dlaczego" rows="4" placeholder="Wpisz swoją odpowiedź"></textarea>
+            </form>
+        </div>
+    </div>
+    <div class="form-actions">
+        <button type="submit" form="konkursForm">Wyślij</button>
+        <button type="reset" form="konkursForm">Reset</button>
+    </div>
+</body>
+</html>
+
+
 
         <br>
     <A HREF="indeks.html">wróć </A>

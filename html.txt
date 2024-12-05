@@ -1,0 +1,100 @@
+ <!DOCTYPE html>
+     <html lang="pl-PL">
+      <html>
+       <head>
+           <meta charset="utf-8">
+       <title> </title>
+       </head>
+      <body>
+   <p align="right"> <font color="green" size="1" face="Arial"> Alan </font> </p> <br>
+   <p align="right"> <font color="green" size="2" face="Arial"> Alan </font> </p> <br>
+   <p align="right"> <font color="green" size="3" face="Arial"> Alan </font> </p> <br>
+   <p align="right"> <font color="green" size="4" face="Arial"> Alan </font> </p> <br>
+   <p align="right"> <font color="green" size="5" face="Arial"> Alan </font> </p> <br>
+   <p align="right"> <font color="green" size="6" face="Arial"> Alan </font> </p> <br>
+   <p align="right"> <font color="green" size="7" face="Arial"> Alan </font> </p> <br>
+
+   <h1> Kowalski </h1><br>
+   <h2> Kowalski </h2><br>
+   <h3> Kowalski </h3><br>
+   <h4> Kowalski </h4><br>
+   <h5> Kowalski </h5><br>
+   <h6> Kowalski </h6><br>
+
+   <p align="right"> <font color="green" size="1" face="Verdana"> :) </font> </p> <br>
+   <p align="right"> <font color="red" size="2" face="Verdana"> :c </font> </p> <br>
+   <p align="right"> <font color="blue" size="3" face="Verdana"> :o </font> </p> <br>
+   <p align="right"> <font color="black" size="4" face="Verdana"> :/ </font> </p> <br>
+   <p align="right"> <font color="yellow" size="5" face="Verdana"> :( </font> </p> <br>
+   <p align="right"> <font color="purple" size="6" face="Verdana"> ;( </font> </p> <br>
+
+   <p align="center"> <u> <font color="purple" size="2" face="arial"> 90-234 Gdańsk Długa 31/5 </font> </u> </p> <br
+   <p align="center"> <strike> <font color="green" size="3" face="Times New Roman"> Ulubiony aktor: Kevin Hart  </font> </strike> </p> <br>
+   <p align="center"> <font color="red" size="4" face="Verdana"> Zespół muzyczny: Rpk </font> </p> <br>
+   <p align="center"> <b> <font color="purple" size="6" face="Verdana"> Data urodzenia: 11 Września 2007  </font> </b> </p> <br>
+   <p align="left"> <b> <font color="purple" size="10" face="Verdana"> H<sub>2</sub>SO<sub>4</sub> </font> </b> </p> <br>
+   <p align="left"> <font color="red" size="10" face="Verdana"> x<sup>*</sup>x=x<sup>2</sup> </font> </p> <br>\
+
+  <center> <h2> żart o policjancie </h2> </center>
+     <body bgcolor="#05F8C7">
+    <font color="red">
+   <h3>
+  <hr>
+   <FIELDSET>
+ <hr>
+   <LEGEND>brudny policjant</LEGEND>
+    Wieczorem żona pyta policjanta: <br>
+    – Wziąłeś prysznic <br>
+    – No tak! Ile razy coś zginie, zawsze jest na mnie! <br>
+ <hr>
+ <hr>
+ </h3>
+ </font color="red">
+ </body bgcolor="#05F8C7">
+   </FIELDSET>
+
+
+
+  <center> <h2>żart o nauczycielu </h2> </center>
+     <body bgcolor="#05F8C7">
+    <font color="green">
+   <h3>
+  <hr>
+   <FIELDSET>
+  <hr>
+   <LEGEND>szkolny post</LEGEND>
+    Katechetka do dzieci: <br>
+    – Co robimy kiedy jest post?<br>
+    – Komentujemy i dajemy lajka! <br>
+     <hr>
+     <hr>
+     </h3>
+     </font color="green">
+     </body bgcolor="#05F8C7">
+   </FIELDSET>
+
+
+<center> <h2> żart o programiście </h2> </center>
+     <body bgcolor="#05F8C7">
+    <font color="red">
+   <h3>
+  <hr>
+   <FIELDSET>
+ <hr>
+   <LEGEND>dobry zawód</LEGEND>
+  Spotyka się dwóch programistów: <br>
+– Słyszałem, że straciłeś pracę. Jak to jest być bezrobotnym? <br>
+– To było najgorsze pół godziny mojego życia! <br>
+   
+ <hr>
+ <hr>
+ </h3>
+ </font color="#F50057">
+ </body bgcolor="#00FFFF">
+   </FIELDSET>
+
+  </body>
+    </html>
+
+
+

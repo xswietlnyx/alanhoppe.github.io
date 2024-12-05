@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kacper Kabziński</title>
+</head>
+<body>
+
+<script>
+function Osoba(imie, nazwisko, wiek) {
+  this.name = imie;
+  this.surname = nazwisko;
+  this.age = wiek;
+}
+
+var uczen = new Osoba("Kacper", "Kabziński", 18);
+
+document.write("Imię: " + uczen.name + "<br>");
+document.write("Nazwisko: " + uczen.surname + "<br>");
+document.write("Wiek: " + uczen.age);
+</script>
+
+</body>
+</html>
